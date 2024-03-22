@@ -4,10 +4,13 @@ import { Flores } from "./React/Flores";
 
 const router =createBrowserRouter([
     {
-        path:'/Flores',
+        path:'/',
         element: <Flores/>
     },
-       
+            {
+        path:'/Inicio',
+        element: <Inicio />
+    }
 ]);
 
 function App(){
