@@ -8,7 +8,7 @@ const Inicio = () => {
     };
 
     const handleGoToFloresPage = () => {
-        window.location.href = ''; // Aquí debes colocar la URL de la página a la que deseas navegar
+        window.location.href = 'https://leafy-clafoutis-e5bcbc.netlify.app'; // Aquí debes colocar la URL de la página a la que deseas navegar
     };
 
     return (

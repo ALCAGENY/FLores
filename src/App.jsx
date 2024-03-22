@@ -5,11 +5,11 @@ import { Flores } from "./React/Flores";
 const router =createBrowserRouter([
     {
         path:'/',
-        element: <Flores/>
+        element: <Inicio/>
     },
             {
-        path:'/Inicio',
-        element: <Inicio />
+        path:'/Flores',
+        element: <Flores />
     }
 ]);
 
