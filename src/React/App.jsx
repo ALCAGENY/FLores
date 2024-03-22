@@ -8,7 +8,7 @@ const Inicio = () => {
     };
 
     const handleGoToFloresPage = () => {
-        window.location.href = 'https://taupe-pudding-c8338f.netlify.app/Flores'; // Aquí debes colocar la URL de la página a la que deseas navegar
+        window.location.href = 'http://localhost:5173/Flores'; // Aquí debes colocar la URL de la página a la que deseas navegar
     };
 
     return (
